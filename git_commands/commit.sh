@@ -7,6 +7,3 @@ git commit -m "changes mad on $DATE"
 git checkout develop
 git log -5 --pretty=%an --name-only 1> gitlog_$(date +"%d_%m_%Y")
 rm -rf .git
-==============
-crontab -e
-0 15 * * * /home/manishk/commit.sh
