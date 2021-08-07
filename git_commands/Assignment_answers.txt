@@ -1,0 +1,36 @@
+Hi,
+
+As a part of the IJP selection process, request you to please complete the following tasks.
+
+Task 1:
+Write a cron job which should to the following:
+- The job should be executed at 3 PM every day.
+- Clone a git repository
+$ ssh user@git.example.com
+$ cd /srv/git/my_project.git
+$ git init --bare --shared
+git clone https://github.com/iamdchamp/mygit.git
+
+- Write git log of last 5 commits from develop branch in a file.
+git log -5
+- Only author and files which are modified should be printed and not the complete git log.
+- The file should be created with this naming convention - gitlog_ddmmyyyy
+- Delete the repository
+
+
+Task 2:
+- Create a Gradle project.
+- Write a Gradle task to print "Hello <name>!"
+- The <name> should be passed as an argument.
+- If the <name> argument is not specified, it should print "Hello World!"
+
+
+Once you are ready, please upload the files to GitHub and share the repository URL with us.
+
+Please complete this assignment and let us know latest by 6 PM IST Friday (06 August 2021).
+
+For any questions, please call me or ping me on MS Teams.
+
+All the best!
+
+Thank you!
